@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 	TextView btn_add, btn_device_simulation;
 	TextView ed_duration, ed_interval, ed_stop_time, ed_start_time;
 	private int hour;
+	
 
 	Boolean Selectionstate = false;
 	String[] DeviceID;
@@ -62,6 +63,8 @@ public class MainActivity extends Activity {
 	private String update;
 	String text = "<font color=#FE2E2E>Multi</font><font color=#013ADF>versal Tech</font><font color=#04B404>nologies</font>";
 	TextView leftIcon;
+	
+	String ontime,offtime;
 
 	static final int TIME_DIALOG_ID = 999;
 
