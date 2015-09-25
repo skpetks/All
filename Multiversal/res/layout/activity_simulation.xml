@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/your_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_rounded_rectangle"
+            android:gravity="left"
+            android:hint="System time"
+            android:inputType="time"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/btn_sys_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="Set"
+            android:typeface="sans"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/sys_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_rounded_rectangle"
+            android:ems="10"
+      
+            android:gravity="left|center_vertical"
+            android:hint="Set Your Time"
+            android:inputType="time"
+            android:padding="10dp"
+            android:text="0:00"
+            android:textColor="#000000"
+            android:typeface="sans" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_your_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="reset"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/btn_re"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:drawablePadding="-2dp"
+            android:drawableTop="@drawable/re" />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/play" />
+
+        <Button
+            android:id="@+id/btn_fast"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/fa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="1dp" >
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="Start"
+            android:textColor="#000000"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/btn_Stop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="Stop"
+            android:textColor="#000000"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/btn_on"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="ON"
+            android:textColor="#000000"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/btn_Off"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="OFF"
+            android:textColor="#000000"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spn_sch"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Device Information"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Tasks ID"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Device Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Operation Day"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Start Time"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Stop Time"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Interval"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Duration"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_taskid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Tasks ID"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_devicename"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Device Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_dayorder"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Operation Day"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_starttime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Start Time"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvstoptime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Stop Time"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_interval"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Interval"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tv_duration"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left|center"
+                        android:text="Duration"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>  
+</LinearLayout>

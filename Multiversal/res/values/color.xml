@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textcolor">#000000</color>
+    
+    <color name="black">#000000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="blue">#0d59a5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="back">#E5E5E5</color>
+    <color name="formback">#D1CEB2</color>
+    <color name="rightback">#22AC38</color>
+    <color name="red">#DD4B39</color>
+    <color name="rightbackbill">#EEEEEE</color>
+    <color name="green">#749949</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="orange">#FF8C00</color>
+    <color name="transparent">#00000000</color>
+    <color name="darkorange">#c65c35</color>
+    <color name="darkyellow">#ffbf25</color>
+    <color name="list_item_title">#ffffff</color>
+    <color name="list_background">#a2549b</color>
+    <color name="list_background_pressed">#e6e6e6</color>
+    <color name="list_divider">#FFFFFF</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="violet">#a2549b</color>
+    <color name="contactbordergray">#d2d4d3</color>
+    <color name="lightsgrays">#cfcfcf</color>
+    <color name="lightgrays">#e8e8e8</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ly_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/tv_fileid"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+                    android:background="@drawable/edheader1"
+            android:text="File Name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Created"
+                    android:background="@drawable/edheader1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_approval"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+                    android:background="@drawable/edheader1"
+            android:gravity="center"
+            android:text="Aprroval"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+        
+        
+                <TextView
+            android:id="@+id/tv_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+                    android:background="@drawable/edheader1"
+            android:gravity="center"
+            android:text="LastUpload"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+                 
+    </LinearLayout>
+
+</LinearLayout>
